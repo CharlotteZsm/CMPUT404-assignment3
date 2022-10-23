@@ -1,0 +1,73 @@
+body {
+    background-color: #FBE7C6;
+    background-image: url(images/background.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 5px double #996b1f;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+a:link {
+    color: #0E86D4;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #0E86D4;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #003060;
+}
+
+table {
+    border: 2px solid #996b1f;
+    border-radius: 5px;
+    align-items: baseline;
+    border-spacing: 15px;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.poem {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 80px;
+    line-height: 2.0;
+}
+
+.letter {
+    line-height: 1.5;
+}
+
+.right {
+    line-height: 1.2;
+}
+
+pre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+
+}

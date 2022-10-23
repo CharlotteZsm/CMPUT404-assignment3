@@ -1,0 +1,129 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding-bottom: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(images/badBack.jpg);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url(images/badHeader.jpg);
+    text-align: center;
+}
+
+h1 {
+    color: lightblue;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: lightblue;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    border: 2px solid yellow;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: blue;
+}
+
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.section {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+img {
+    float: left;
+    width: 200px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.left {
+    float: left;
+    width: 100px;
+    margin: 20px;
+}
+
+.right {
+    float: right;
+    width: 120px;
+    padding: 20px;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+div #whoami {
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 5px 10px 18px #888888;
+    color: rgb(214, 17, 221);
+}
+
+div #history {
+    background-color: brown;
+    border-radius: 8px;
+    box-shadow: 5px 10px 18px #888888;
+    color: aqua;
+}
+
+div #abilities {
+    background-color: blueviolet;
+    border-radius: 8px;
+    box-shadow: 5px 10px 18px #888888;
+    color: wheat;
+}
+
+div #contact {
+    background-color: yellowgreen;
+    border-radius: 8px;
+    box-shadow: 5px 10px 18px #888888;
+    color: rgb(161, 19, 62);
+}

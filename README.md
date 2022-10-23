@@ -12,6 +12,11 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Modification to the project gutenberg HTML files
+=================================================
+
+Add a line about the link of the new CSS in all three HTML files.
+
 License/Copyright
 =================
 
@@ -21,4 +26,4 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-
+2022 Simiao Zheng
